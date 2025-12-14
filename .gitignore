@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+white-line/
+ubehavior-env/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data cache
+*.cache
+data/**/*.cache
+
+# Model weights (large files - uncomment if you want to exclude)
+# *.pt
+# runs/**/*.pt
+
+# Outputs (keep structure but can exclude contents)
+# outputs/images/*
+# outputs/videos/*
+
+# Training outputs (keep latest, exclude old)
+# runs/segment/val*/
+# runs/segment/train*/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+data/
+outputs/
